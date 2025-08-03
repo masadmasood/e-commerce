@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Outfit:wght@100..900&family=Prata&display=swap');
+
+html {
+  font-size: 100%;
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif !important;
+}
+
+.icon-button,
+.icon-button:hover,
+.icon-button:focus,
+.icon-button:active {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  outline: none !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+/* 
+.line-before {
+  position: relative;
+  display: inline-block;
+}
+
+.line-before::before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  background-color: #414141;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-right: 10px;
+  left: -60px;
+}
+
+.line-after {
+  position: relative;
+  display: inline-block;
+}
+
+.line-after::after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 1.8px;
+  background-color: #414141;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 10px;
+  left: 16;
+} */
